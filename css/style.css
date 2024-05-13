@@ -1250,3 +1250,21 @@
 /* Você pode adicionar mais consultas de mídia ou estilos aqui conforme necessário */
 
 
+/* Para dispositivos móveis */
+@media (max-width: 768px) {
+    .formulario {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .info {
+        text-align: center;
+    }
+    .btn-whatsapp {
+        margin: 25px auto;
+        display: block;
+    }
+    #wpp {
+        margin: 0 auto;
+    }
+}
