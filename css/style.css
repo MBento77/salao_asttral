@@ -908,6 +908,7 @@
     .galeria-barber .foto:nth-of-type(2n+0),
     .galeria-barber .foto {
         width: 23.5%;
+        height: 10%;
         margin-right: 2%;
         margin-bottom: 2%;
     }
@@ -1032,12 +1033,6 @@
     width: 100%;
 }
 
-/* #foto3{
-    height:1100px ;
-    width:100% ;
-
-} */
-
 .faixa-bottom {
     position: absolute;
     bottom: 0;
@@ -1153,3 +1148,105 @@
     margin-bottom: 2em;
     text-align: center; /* Adiciona alinhamento central */
 }
+
+.container-da-galeria {
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(7, 5vw);
+    grid-gap: 1.5rem;
+}
+
+.gallery_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.gal1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.gal2{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.gal3{
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.gal4{
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.gal5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.gal6{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.gal7{
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.gal8{
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+/* Estilos para dispositivos móveis e ajuste de layout */
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+/* Adaptação do layout para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Estilos para títulos */
+    .title {
+        font-size: 1.5em;
+    }
+    
+    /* Estilos para o conteúdo */
+    .content {
+        width: 90%;
+        margin: 0 5%;
+    }
+    
+    /* Adicione outras regras de estilo conforme necessário para dispositivos móveis */
+}
+
+/* Outros estilos que não foram especificamente adaptados para dispositivos móveis */
+/* Você pode adicionar mais consultas de mídia ou estilos aqui conforme necessário */
+
+
