@@ -1006,7 +1006,6 @@
 .carrossel {
     box-shadow: 2px 2px 4px black;
     overflow: hidden;
-    /* height: 100%; Altura total do carrossel */
     width: 100%;
     position: relative;
     /* Adicione esta linha */
@@ -1246,11 +1245,19 @@
     /* Adicione outras regras de estilo conforme necessário para dispositivos móveis */
 }
 
-/* Outros estilos que não foram especificamente adaptados para dispositivos móveis */
-/* Você pode adicionar mais consultas de mídia ou estilos aqui conforme necessário */
-
 
 /* Para dispositivos móveis */
+
+
+body,
+header,
+section,
+article,
+aside,
+footer {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
     .formulario {
         margin-left: auto;
