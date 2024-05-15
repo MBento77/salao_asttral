@@ -83,3 +83,25 @@
     height: 100%
 }
 
+/* Adicione este bloco de regras de mídia para telas menores, como celulares */
+@media (max-width: 767px) {
+    .hi-slide {
+        width: 50vw; /* 50% da largura da tela */
+        height: 292px;
+        margin: 115px auto 0;
+    }
+
+    .hi-slide>ul {
+        width: 50vw; /* 50% da largura da tela */
+        height: 292px;
+    }
+
+    .hi-slide>ul>li {
+        width: calc(50vw - 20px); /* 50% da largura da tela menos margem */
+        height: 252px; /* Ajuste a altura conforme necessário */
+        left: calc(25vw - 10px); /* Posicionamento no centro */
+        top: 20px; /* Ajuste conforme necessário */
+    }
+}
+
+
