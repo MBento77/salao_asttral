@@ -188,7 +188,7 @@
 /*MENU*/
 
 /*1279PX BREAKPOINT - 1279 dividido por 16 = 79.9375em*/
-@media (max-width: 79.9375em) {
+/* "@media (max-width: 79.9375em) {
     .main_header_nav {
         position: fixed;
         left: -100%;
@@ -239,7 +239,7 @@
         display: block;
     }
 
-}
+} */
 
 /*PAG*/
 .coluna {
@@ -700,7 +700,7 @@
 
 /*480PX BREAKPOINT*/
 /*480 dividido por 16 = 30em*/
-@media (min-width:30em) {
+/* @media (min-width:30em) {
 
     .box-css {
         float: left;
@@ -721,7 +721,7 @@
 
 /*600PX BREAKPOINT*/
 /*600 dividido por 16 = 37,5em*/
-@media (min-width:37em) {
+/* @media (min-width:37em) {
 
     .topoPag .centraliza h1 {
         font-size: 3em;
@@ -940,7 +940,7 @@
 
 /*1600PX BREAKPOINT*/
 /*1600 dividido por 16 = 100em*/
-@media (min-width:100em) {}
+/* @media (min-width:100em) {} */
 
 .btn-whatsapp {
     display: inline-block;
@@ -958,7 +958,7 @@
     margin-left: 420px;
     margin-top: 25px;
     border-radius: 5px;
-}
+} */
 
 .btn-whatsapp:hover {
     background-color: darkgoldenrod;
@@ -1230,20 +1230,17 @@
 }
 
 /* Adaptação do layout para dispositivos móveis */
-@media (max-width: 768px) {
-    /* Estilos para títulos */
+/* @media (max-width: 768px) {
     .title {
         font-size: 1.5em;
     }
     
-    /* Estilos para o conteúdo */
     .content {
         width: 90%;
         margin: 0 5%;
     }
     
-    /* Adicione outras regras de estilo conforme necessário para dispositivos móveis */
-}
+} */
 
 
 /* Para dispositivos móveis */
@@ -1258,7 +1255,7 @@ footer {
   width: 100%;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .formulario {
         margin-left: auto;
         margin-right: auto;
@@ -1274,4 +1271,4 @@ footer {
     #wpp {
         margin: 0 auto;
     }
-}
+} */
