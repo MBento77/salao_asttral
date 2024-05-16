@@ -809,7 +809,7 @@
     color: #000000;
     /* cor do texto */
     font-weight: bold;
-    background-color: #25D366;
+    background-color: darkgoldenrod;
     margin-left: 420px;
     margin-top: 25px;
     border-radius: 5px;
@@ -1081,30 +1081,37 @@
     }
 }
 
-/* Estilos para dispositivos com largura de tela menor que 600px (geralmente dispositivos móveis) */
-@media only screen and (max-width: 600px) {
-    /* Aumentar o tamanho da fonte */
-    body {
-      font-size: 18px;
-    }
-    
-    /* Aumentar o tamanho das imagens */
-    img {
-      width: 100%;
-    }
-    
-    /* Aumentar o tamanho dos botões */
-    button {
-      font-size: 20px;
-      padding: 10px 20px;
-    }
-    
-    /* Aumentar o tamanho dos links */
-    a {
-      font-size: 18px;
-    }
-  }
+.custom_footer {
+    background-color: #0e2a34; /* Cor de fundo do rodapé */
+    padding: 20px 0; /* Espaçamento interno do rodapé */
+}
 
-  
-  
-  
+.custom_footer .footer_copy {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+}
+
+.custom_footer .footer_content {
+    text-align: center; /* Alinhamento do texto centralizado */
+    display: flex; /* Tornar o conteúdo do rodapé flexível */
+    align-items: center; /* Alinhar itens verticalmente */
+}
+
+.custom_footer h4 {
+    margin: 0; /* Remover margens padrão do h4 */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-right: 25px; /* Adicionar espaçamento entre o texto e a imagem */
+}
+
+.custom_footer .footer_image img {
+    max-width: 100px; /* Definir largura máxima da imagem */
+    height: auto; /* Manter proporção do logo */
+}
+
+
+
+
+
+
+/* 0e2a34 */
