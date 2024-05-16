@@ -896,7 +896,7 @@
 .hi-slide {
     position: relative;
     width: 754px;
-    height: 400;
+    height: 400px;
     margin: 115px auto 50px;
     margin-top: 140px;
     margin-bottom: 80px;
@@ -1040,7 +1040,6 @@
 }
 /* Estilos para dispositivos móveis e ajuste de layout */
 @viewport {
-    width: device-width;
     zoom: 1.0;
 }
 /* Adaptação do layout para dispositivos móveis */
@@ -1058,9 +1057,6 @@
     
     /* Adicione outras regras de estilo conforme necessário para dispositivos móveis */
 }
-/* Outros estilos que não foram especificamente adaptados para dispositivos móveis */
-/* Você pode adicionar mais consultas de mídia ou estilos aqui conforme necessário */
-
 
 /* Para dispositivos móveis */
 @media (max-width: 768px) {
@@ -1108,10 +1104,3 @@
     max-width: 100px; /* Definir largura máxima da imagem */
     height: auto; /* Manter proporção do logo */
 }
-
-
-
-
-
-
-/* 0e2a34 */
