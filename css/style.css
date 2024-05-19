@@ -483,63 +483,8 @@
     background-color: #f9f9f9;
 }
 .section-contato .content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     float: left;
     padding: 5em 0 0em 0;
-}
-.formulario {
-    margin-right: auto;
-    width: 100%;
-    height: 100%;
-    float: left;
-}
-.formulario label {
-    width: 100%;
-    float: left;
-    margin-bottom: 15px;
-}
-.formulario label span {
-    font-size: 1em;
-    color: #17badf;
-    float: left;
-    margin-bottom: 5px;
-    font-family: 'open_sansregular';
-}
-.formulario .campo {
-    font-size: 1.2em;
-    color: #7b7979;
-    font-family: 'open_sansregular';
-    outline: none;
-    border: 1px #dee5ed solid;
-    border-radius: 3px;
-    padding: 0.6em;
-    transition: .5s;
-}
-.formulario .campo:focus {
-    box-shadow: 0 0 4px 0px rgb(54, 104, 145);
-    border: 1px rgb(56, 106, 146) solid;
-    color: #366891;
-}
-.formulario .btn-enviar {
-    width: 160px;
-    float: left;
-    margin-top: 5px;
-    background-color: #ffffff;
-    color: #7b7979;
-    border: 1px #dee5ed solid;
-    border-radius: 3px;
-    cursor: pointer;
-    padding: 0.5em 0em;
-    font-size: 1.5em;
-    font-family: 'open_sansregular';
-    transition: 0.2s;
-}
-.formulario .btn-enviar:hover {
-    background-color: #366891;
-    color: #ffffff;
-    border: 1px #dee5ed solid;
 }
 .info {
     width: 100%;
@@ -555,61 +500,6 @@
 }
 .info p i {
     margin-right: 5px;
-}
-/*FOOTER*/
-.main_footer {
-    background-color: #0e2a34;
-    color: #fff;
-    font-size: 0.875em;
-}
-.main_footer .content {
-    float: left;
-    width: 80%;
-    margin: 0 10%;
-    padding: 5em 0;
-}
-.container {
-    float: left;
-    width: 100%;
-}
-.main_footer_copy {
-    width: 100%;
-    float: left;
-    text-align: center;
-}
-.main_footer_copy .content {
-    padding: 1.2em 0em !important;
-}
-.main_footer_copy p {
-    font-family: 'open_sanslight';
-    font-size: 0.95em;
-    color: #e1e0e0;
-    float: left;
-}
-.main_footer_copy .t-copy-footer {
-    float: left;
-    width: 100%;
-    margin-bottom: 3px;
-}
-.main_footer_copy .by {
-    float: left;
-    width: 100%;
-    font-size: 0.95em;
-    color: #fff;
-}
-.main_footer_copy .by a {
-    text-decoration: none;
-    color: #fff;
-    display: inline;
-}
-.main_footer_copy .by a:hover {
-    text-decoration: underline;
-    color: #4a688e;
-}
-.main_footer_copy .by i {
-    font-size: 0.96em;
-    margin-right: 3px;
-    color: #4a688e;
 }
 /*480PX BREAKPOINT*/
 /*480 dividido por 16 = 30em*/
@@ -640,88 +530,7 @@
 }
 /*768PX BREAKPOINT*/
 /*768 dividido por 16 = 48em*/
-@media (min-width:48em) {
-    .main_header_logo {
-        position: absolute;
-        margin-top: 0.5em;
-        background: transparent;
-        z-index: 98;
-    }
-    .section_title {
-        font-size: 2em;
-        font-weight: 300;
-        text-align: left;
-    }
-    .blocoArtigo .desc h3 {
-        font-size: 1.5em;
-    }
-    .box-css:nth-of-type(2n+0),
-    .box-css {
-        float: left;
-        width: 23.5%;
-        margin-right: 2%;
-    }
-    .box-css:nth-of-type(4n+0) {
-        margin-right: 0;
-    }
-    .box-css h1 {
-        font-size: 1em !important;
-    }
-    .galeria-barber .foto {
-        width: 48%;
-        margin-right: 4%;
-        margin-bottom: 4%;
-    }
-    .galeria-barber .foto:nth-of-type(2n+0) {
-        margin-right: 0;
-    }
-    .hover_servicos {
-        width: 32%;
-        margin-right: 2%;
-        margin-bottom: 0em;
-    }
-    .hover_servicos:nth-of-type(3n+0) {
-        margin-right: 0px;
-    }
-    .section-servicos .content {
-        float: left;
-        padding: 5em 0 5em 0;
-    }
-    .section-galeria .content {
-        float: left;
-        padding: 5em 0 5em 0;
-    }
-    .section-contato .content {
-        float: left;
-        padding: 5em 0 5em 0;
-    }
-    .info {
-        margin-bottom: 5px;
-    }
-    .coluna {
-        flex: 1;
-        min-width: 250px;
-        padding: 10px;
-        width: 48%;
-        float: left;
-        margin-right: 4%;
-        margin-bottom: 0;
-    }
-    .coluna:nth-of-type(2n+0) {
-        margin-right: 0;
-    }
-    .main_footer_copy p {
-        font-size: 1em;
-    }
-    .main_footer_copy .t-copy-footer {
-        float: left;
-        width: auto;
-    }
-    .main_footer_copy .by {
-        float: right;
-        width: auto;
-    }
-}
+
 /*960PX BREAKPOINT*/
 /*960 dividido por 16 = 60em*/
 @media (min-width:60em) {
@@ -801,9 +610,6 @@
         margin: 0 10%;
     }
 }
-/*1600PX BREAKPOINT*/
-/*1600 dividido por 16 = 100em*/
-@media (min-width:100em) {}
 .btn-whatsapp {
     display: inline-block;
     padding: 20px 25px;
@@ -821,12 +627,8 @@
     margin-top: 25px;
     border-radius: 5px;
 }
-.btn-whatsapp:hover {
-    background-color: darkgoldenrod;
-    /* cor de fundo ao passar o mouse */
-}
 #wpp {
-    margin-left: 510px;
+    margin-left: 500px;
 }
 #banner_salao {
     background-color: #000000;
@@ -1168,7 +970,7 @@
 
 .coluna {
     flex: 1;
-    min-width: 250px; /* Ajuste conforme necessário */
+    min-width: 300px; /* Ajuste conforme necessário */
     padding: 10px;
 }
 
@@ -1180,9 +982,8 @@
     margin-left: auto;
 }
 
-.btn-whatsapp {
-    display: inline-block;
-    margin-top: 10px;
+.formulario h2 {
+    margin-bottom: 10px; /* Espaçamento entre o texto "WhatsApp" e o botão */
 }
 
 .info {
@@ -1218,33 +1019,35 @@
 
 .coluna {
     flex: 1;
-    min-width: 250px; /* Ajuste conforme necessário */
+    min-width: 300px; /* Ajuste conforme necessário */
     padding: 10px;
 }
 
 .formulario {
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha os itens à esquerda */
 }
 
-.design {
-    margin-left: auto;
+.whatsapp-container {
+    text-align: left; /* Alinha o texto à esquerda */
 }
 
-.formulario h2 {
-    margin-bottom: 20px; /* Aumenta o espaçamento entre o texto "WhatsApp" e o botão */
+#wpp {
+    margin-bottom: 10px; /* Espaçamento entre o texto "WhatsApp" e o botão */
 }
 
 .btn-whatsapp {
     display: inline-flex;
     align-items: center;
-    font-size: 1.5em; /* Aumenta o tamanho do texto */
-    padding: 10px 20px; /* Aumenta o tamanho do botão */
+    font-size: 1.3em; /* Aumenta o tamanho do texto */
+    padding: 20px 20px; /* Aumenta o tamanho do botão */
     background-color: darkgoldenrod; /* Cor do botão */
     color: black;
     text-decoration: none;
     border-radius: 5px; /* Adiciona cantos arredondados */
     transition: background-color 0.3s;
-    margin-bottom: 20px; /* Espaçamento inferior para separar do próximo conteúdo */
+    margin-top: 10px; /* Espaçamento superior para separar do texto acima */
 }
 
 .btn-whatsapp span {
@@ -1252,9 +1055,38 @@
 }
 
 .btn-whatsapp .icon-whatsapp {
-    font-size: 2em; /* Aumenta o tamanho do ícone */
+    font-size: 1.4em; /* Aumenta o tamanho do ícone */
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    margin-left: auto;
 }
 
 .info {
-    margin-top: 10px;
+    margin-top: 20px;
 }
+
+/* Ajustes adicionais para garantir boa exibição em telas menores */
+@media (max-width: 768px) {
+    .section-contato .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coluna {
+        min-width: 100%;
+        text-align: center;
+    }
+
+    .formulario, .design {
+        margin: 0;
+    }
+
+    .btn-whatsapp {
+        margin-bottom: 20px;
+    }
+}
+
