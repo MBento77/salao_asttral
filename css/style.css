@@ -1258,25 +1258,3 @@
 .info {
     margin-top: 10px;
 }
-
-/* Ajustes adicionais para garantir boa exibição em telas menores */
-@media (max-width: 768px) {
-    .section-contato .content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .coluna {
-        min-width: 100%;
-        text-align: center;
-    }
-
-    .formulario, .design {
-        margin: 0;
-    }
-
-    .btn-whatsapp {
-        margin-bottom: 20px;
-    }
-}
-
