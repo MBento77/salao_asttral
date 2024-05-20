@@ -8,7 +8,7 @@
         // 默认设置选项
         var setting = {
             // 控制轮播的动画时间
-            speed: 1000,
+            speed: 2000,
             // 控制 interval 的时间 (轮播速度)
             interval: 2000,
 
@@ -84,3 +84,4 @@
         return this;
     }
 })(jQuery);
+
